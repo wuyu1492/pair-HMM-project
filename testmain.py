@@ -1,6 +1,6 @@
 from read_data import *
 from getTrans import *
-from PEring2 import *
+from PEring import *
 import sys, getopt
 
 def main(argv):
