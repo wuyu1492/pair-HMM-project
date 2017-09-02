@@ -1,6 +1,6 @@
 from read_data import *
 from getTrans import *
-from PEring import *
+from PEring3 import *
 import sys, getopt
 
 def main(argv):
@@ -33,11 +33,12 @@ def main(argv):
             for h in range(0, len(data[5])):    # for each haplo
                 print('haplo', h, end=" ")
                 f.write("haplo %d " % h)
-                prior = getPrior(data[0][l], data[5][h], data[1][l])
                 myring.initRing(mm[0])               # initial PE ring
-                result = myring.dp(prior, mm, im, dm, mi, ii, md, dd)
+                trans = makeTrans(mm, im, dm, mi, ii, md, dd)
+                result = myring.proc(data[0][l], data[5][h], data[1][l], trans)
                 print(result)
                 f.write("result = %e\n" % result)
+            #break
         #break
     f.close()
 
