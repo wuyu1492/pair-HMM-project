@@ -1,5 +1,15 @@
 from collections import deque
 
+cycle = 0
+
+def initCycle():
+    global cycle
+    cycle = 0
+
+def reportCycle():
+    print('total cycle =',cycle)
+    return cycle
+
 class PE:
     """ process element"""
     def __init__(self, base='', trans=(0,0,0,0,0,0,0)):
@@ -76,6 +86,8 @@ class PEring:
         self.interBuf.appendleft((0, 0, 0))
 
     def mvRing(self, nh, bufout):
+        global cycle
+        cycle += 1
         for l in range(self.rsize-1, 0, -1):
             self.PElist[l].getFwd(self.PElist[l-1].fmid[-1], self.PElist[l-1].haplo)
         self.PElist[0].getFwd(bufout, nh)

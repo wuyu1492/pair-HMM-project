@@ -1,6 +1,6 @@
 from read_data import *
 from getTrans import *
-from PEring3 import *
+from PEring import *
 import sys, getopt
 
 def main(argv):
@@ -16,11 +16,10 @@ def main(argv):
             inputfile = arg
         elif opt in ("-o", "--ofile"):
             outputfile = arg
-    print('inputfile = ', inputfile)
-    print('outputfile = ', outputfile)
     data_all = readInput(inputfile)
     f = open(outputfile, 'w')
-    ring_size = 4
+    initCycle()     # initial cycle counter to 0
+    ring_size = 8
     myring = PEring(ring_size)
     for d in range(0, len(data_all)):
         print('Processing data set', d)
@@ -40,6 +39,8 @@ def main(argv):
                 f.write("result = %e\n" % result)
             #break
         #break
+    total_cycle = reportCycle()
+    f.write("total cycle = %d " % total_cycle)
     f.close()
 
 if __name__ == "__main__":
