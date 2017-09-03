@@ -19,27 +19,31 @@ def main(argv):
     data_all = readInput(inputfile)
     f = open(outputfile, 'w')
     initCycle()     # initial cycle counter to 0
-    ring_size = 8
+    ring_size = 16
+    total_PE = 32
+    ring_num = total_PE/ring_size
     myring = PEring(ring_size)
     for d in range(0, len(data_all)):
         print('Processing data set', d)
         f.write("data set %d \n" % d)
         data = data_all[d]
         for l in range(len(data[0])):        # for each line in one set
-            print('base ', l)
+            #print('base ', l)
             f.write("base %d \n" % l)
             mm, im, dm, mi, ii, md, dd = getTrans(data[2][l], data[3][l], data[4][l])
             for h in range(0, len(data[5])):    # for each haplo
-                print('haplo', h, end=" ")
+                #print('haplo', h, end=" ")
                 f.write("haplo %d " % h)
                 myring.initRing(mm[0])               # initial PE ring
                 trans = makeTrans(mm, im, dm, mi, ii, md, dd)
                 result = myring.proc(data[0][l], data[5][h], data[1][l], trans)
-                print(result)
+                #print(result)
                 f.write("result = %e\n" % result)
             #break
         #break
     total_cycle = reportCycle()
+    total_cycle /= ring_num
+    print("total cycle =", total_cycle)
     f.write("total cycle = %d " % total_cycle)
     f.close()
 

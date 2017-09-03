@@ -7,7 +7,7 @@ def initCycle():
     cycle = 0
 
 def reportCycle():
-    print('total cycle =',cycle)
+    #print('total cycle =',cycle)
     return cycle
 
 class PE:
