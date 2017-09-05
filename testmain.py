@@ -19,6 +19,9 @@ def main(argv):
     data_all = readInput(inputfile)
     f = open(outputfile, 'w')
     initCycle()     # initial cycle counter to 0
+    pcs = 16        # precision: 64/32/16
+    setPrecision(pcs)
+    print('current precision =', pcs)
     ring_size = 16
     total_PE = 32
     ring_num = total_PE/ring_size

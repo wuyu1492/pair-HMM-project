@@ -1,6 +1,16 @@
 from collections import deque
+import numpy as np
 
 cycle = 0
+precision = 64
+
+def setPrecision(p=64):
+    global precision
+    if p == 64 or p == 32 or p == 16:
+        precision = p
+    else:
+        precision = 64
+        print('Precision setting error!! current precision = 64')
 
 def initCycle():
     global cycle
@@ -38,20 +48,35 @@ class PE:
 
     def getFwd(self, fmid_in, haplo):
         self.haplo = haplo
-        fm_in, fi_in, fd_in = fmid_in
-        mm, im, dm, mi, ii, md, dd = self.trans
-        newta = dm * (fi_in + fd_in)
-        newtb = mm * fm_in
-        prior = self.calPrior()
-        fm = prior * (self.ta[-1] + self.tb[-1])
-        fi = mi * self.fmid[-1][0] + ii * self.fmid[-1][1]
-        fd = md * fm_in + dd * fd_in
         if self.base == '' or haplo == '':
             newta = 0
             newtb = 0
             fm = 0
             fi = 0
             fd = 0
+        else:
+            fm_in, fi_in, fd_in = fmid_in
+            mm, im, dm, mi, ii, md, dd = self.trans
+            prior = self.calPrior()
+            global precision
+            if precision == 16:
+                newta = np.float16(dm * fi_in + fd_in)
+                newtb = np.float16(mm * fm_in)
+                fm = np.float16(prior * (self.ta[-1] + self.tb[-1]))
+                fi = np.float16(mi * self.fmid[-1][0] + ii * self.fmid[-1][1])
+                fd = np.float16(md * fm_in + dd * fd_in)
+            elif precision == 32:
+                newta = np.float32(dm * (fi_in + fd_in))
+                newtb = np.float32(mm * fm_in)
+                fm = np.float32(prior * (self.ta[-1] + self.tb[-1]))
+                fi = np.float32(mi * self.fmid[-1][0] + ii * self.fmid[-1][1])
+                fd = np.float32(md * fm_in + dd * fd_in)
+            else:
+                newta = np.float64(dm * (fi_in + fd_in))
+                newtb = np.float64(mm * fm_in)
+                fm = np.float64(prior * (self.ta[-1] + self.tb[-1]))
+                fi = np.float64(mi * self.fmid[-1][0] + ii * self.fmid[-1][1])
+                fd = np.float64(md * fm_in + dd * fd_in)
         self.ta.insert(0, newta)
         self.tb.insert(0, newtb)
         self.fmid.insert(0, (fm, fi, fd))
