@@ -1,0 +1,503 @@
+Current precision = 16
+data set 0 
+base 0 
+haplo 0 result = 1.488457e-03
+haplo 1 result = 9.375916e-01
+base 1 
+haplo 0 result = 6.539939e-05
+haplo 1 result = 2.193821e-05
+base 2 
+haplo 0 result = 3.769927e-01
+haplo 1 result = 1.506834e-03
+base 3 
+haplo 0 result = 9.471612e-04
+haplo 1 result = 9.460979e-01
+base 4 
+haplo 0 result = 9.526746e-04
+haplo 1 result = 9.516060e-01
+base 5 
+haplo 0 result = 7.608805e-04
+haplo 1 result = 9.569842e-01
+base 6 
+haplo 0 result = 5.303704e-01
+haplo 1 result = 1.779127e-01
+base 7 
+haplo 0 result = 3.791802e-03
+haplo 1 result = 3.753857e-01
+base 8 
+haplo 0 result = 9.570566e-01
+haplo 1 result = 1.206381e-03
+base 9 
+haplo 0 result = 1.123889e-28
+haplo 1 result = 1.123889e-28
+base 10 
+haplo 0 result = 1.265353e-24
+haplo 1 result = 1.265353e-24
+base 11 
+haplo 0 result = 1.719652e-08
+haplo 1 result = 1.826070e-10
+base 12 
+haplo 0 result = 9.406322e-01
+haplo 1 result = 1.185678e-03
+base 13 
+haplo 0 result = 9.489052e-04
+haplo 1 result = 9.478403e-01
+base 14 
+haplo 0 result = 9.554784e-04
+haplo 1 result = 9.544062e-01
+base 15 
+haplo 0 result = 1.856228e-03
+haplo 1 result = 9.284043e-01
+base 16 
+haplo 0 result = 1.073381e-03
+haplo 1 result = 1.353010e-06
+base 17 
+haplo 0 result = 9.369706e-01
+haplo 1 result = 1.181063e-03
+base 18 
+haplo 0 result = 7.593710e-04
+haplo 1 result = 9.551590e-01
+base 19 
+haplo 0 result = 9.425803e-04
+haplo 1 result = 9.415803e-01
+base 20 
+haplo 0 result = 9.424136e-01
+haplo 1 result = 9.433568e-04
+base 21 
+haplo 0 result = 1.174217e-26
+haplo 1 result = 1.174217e-26
+base 22 
+haplo 0 result = 1.466401e-17
+haplo 1 result = 1.668938e-20
+base 23 
+haplo 0 result = 9.441941e-01
+haplo 1 result = 1.498822e-03
+base 24 
+haplo 0 result = 6.534306e-05
+haplo 1 result = 2.191932e-05
+base 25 
+haplo 0 result = 1.669371e-07
+haplo 1 result = 1.437658e-04
+base 26 
+haplo 0 result = 6.214356e-30
+haplo 1 result = 6.214356e-30
+base 27 
+haplo 0 result = 6.179088e-28
+haplo 1 result = 6.179088e-28
+base 28 
+haplo 0 result = 9.446345e-04
+haplo 1 result = 9.436325e-01
+base 29 
+haplo 0 result = 9.598935e-01
+haplo 1 result = 7.630765e-04
+base 30 
+haplo 0 result = 6.619440e-03
+haplo 1 result = 6.553200e-01
+base 31 
+haplo 0 result = 9.535760e-01
+haplo 1 result = 7.580543e-04
+base 32 
+haplo 0 result = 6.224889e-35
+haplo 1 result = 6.224889e-35
+base 33 
+haplo 0 result = 5.267162e-26
+haplo 1 result = 5.267162e-26
+base 34 
+haplo 0 result = 6.225656e-33
+haplo 1 result = 6.225656e-33
+base 35 
+haplo 0 result = 3.855598e-04
+haplo 1 result = 9.679495e-01
+base 36 
+haplo 0 result = 5.142109e-01
+haplo 1 result = 2.055292e-03
+base 37 
+haplo 0 result = 6.171112e-27
+haplo 1 result = 6.171112e-27
+base 38 
+haplo 0 result = 9.650029e-01
+haplo 1 result = 6.092600e-04
+base 39 
+haplo 0 result = 1.498286e-28
+haplo 1 result = 1.498286e-28
+base 40 
+haplo 0 result = 3.863426e-04
+haplo 1 result = 9.699149e-01
+base 41 
+haplo 0 result = 9.536232e-01
+haplo 1 result = 9.545776e-04
+base 42 
+haplo 0 result = 1.699780e-07
+haplo 1 result = 1.698080e-04
+base 43 
+haplo 0 result = 3.179044e-05
+haplo 1 result = 6.355707e-08
+base 44 
+haplo 0 result = 1.999986e-14
+haplo 1 result = 1.586645e-11
+base 45 
+haplo 0 result = 1.524455e-14
+haplo 1 result = 2.419933e-17
+base 46 
+haplo 0 result = 1.539853e-17
+haplo 1 result = 1.538313e-14
+base 47 
+haplo 0 result = 9.960417e-14
+haplo 1 result = 3.341220e-14
+base 48 
+haplo 0 result = 2.857610e-16
+haplo 1 result = 2.860470e-19
+base 49 
+haplo 0 result = 1.236233e-22
+haplo 1 result = 1.555089e-19
+base 50 
+haplo 0 result = 1.548057e-25
+haplo 1 result = 1.546509e-22
+base 51 
+haplo 0 result = 4.137432e-26
+haplo 1 result = 5.204581e-23
+base 52 
+haplo 0 result = 1.087951e-34
+haplo 1 result = 1.087951e-34
+data set 1 
+base 0 
+haplo 0 result = 9.447586e-01
+haplo 1 result = 1.190880e-03
+base 1 
+haplo 0 result = 4.503365e-03
+haplo 1 result = 4.548853e-05
+base 2 
+haplo 0 result = 6.007380e-04
+haplo 1 result = 9.515048e-01
+base 3 
+haplo 0 result = 6.859794e-01
+haplo 1 result = 5.453259e-04
+base 4 
+haplo 0 result = 6.760209e-19
+haplo 1 result = 2.406943e-13
+base 5 
+haplo 0 result = 6.624733e-03
+haplo 1 result = 6.558485e-01
+base 6 
+haplo 0 result = 2.140995e-26
+haplo 1 result = 2.701478e-21
+base 7 
+haplo 0 result = 5.018462e-35
+haplo 1 result = 5.018462e-35
+base 8 
+haplo 0 result = 9.282909e-01
+haplo 1 result = 7.379539e-04
+base 9 
+haplo 0 result = 6.553579e-01
+haplo 1 result = 6.619776e-03
+base 10 
+haplo 0 result = 9.440091e-01
+haplo 1 result = 1.189935e-03
+base 11 
+haplo 0 result = 9.569424e-01
+haplo 1 result = 6.041710e-04
+base 12 
+haplo 0 result = 7.532305e-04
+haplo 1 result = 9.475078e-01
+base 13 
+haplo 0 result = 4.821872e-04
+haplo 1 result = 9.616077e-01
+base 14 
+haplo 0 result = 1.195041e-06
+haplo 1 result = 1.503272e-03
+base 15 
+haplo 0 result = 2.810245e-04
+haplo 1 result = 7.056206e-01
+base 16 
+haplo 0 result = 7.528568e-04
+haplo 1 result = 9.470377e-01
+base 17 
+haplo 0 result = 6.622348e-03
+haplo 1 result = 6.556125e-01
+base 18 
+haplo 0 result = 9.443165e-01
+haplo 1 result = 1.190323e-03
+base 19 
+haplo 0 result = 2.607779e-04
+haplo 1 result = 5.200595e-01
+base 20 
+haplo 0 result = 4.792140e-04
+haplo 1 result = 9.556783e-01
+base 21 
+haplo 0 result = 4.962614e-01
+haplo 1 result = 5.012742e-03
+base 22 
+haplo 0 result = 3.847512e-04
+haplo 1 result = 9.660666e-01
+base 23 
+haplo 0 result = 1.946248e-05
+haplo 1 result = 9.734882e-03
+base 24 
+haplo 0 result = 1.045779e-02
+haplo 1 result = 1.056342e-04
+base 25 
+haplo 0 result = 1.177277e-03
+haplo 1 result = 9.339671e-01
+base 26 
+haplo 0 result = 9.514779e-04
+haplo 1 result = 9.505264e-01
+base 27 
+haplo 0 result = 9.364000e-01
+haplo 1 result = 1.180344e-03
+base 28 
+haplo 0 result = 9.430606e-04
+haplo 1 result = 9.421175e-01
+base 29 
+haplo 0 result = 5.814708e-07
+haplo 1 result = 5.997963e-09
+base 30 
+haplo 0 result = 3.791739e-03
+haplo 1 result = 3.753821e-01
+base 31 
+haplo 0 result = 9.388964e-01
+haplo 1 result = 1.183490e-03
+base 32 
+haplo 0 result = 1.496080e-28
+haplo 1 result = 1.496080e-28
+base 33 
+haplo 0 result = 1.504177e-31
+haplo 1 result = 1.504177e-31
+base 34 
+haplo 0 result = 4.947270e-01
+haplo 1 result = 4.997243e-03
+base 35 
+haplo 0 result = 7.625595e-04
+haplo 1 result = 9.592430e-01
+base 36 
+haplo 0 result = 9.410971e-01
+haplo 1 result = 9.420392e-04
+base 37 
+haplo 0 result = 9.613857e-01
+haplo 1 result = 6.069764e-04
+base 38 
+haplo 0 result = 6.077093e-04
+haplo 1 result = 9.625466e-01
+base 39 
+haplo 0 result = 9.496570e-04
+haplo 1 result = 9.487074e-01
+base 40 
+haplo 0 result = 7.048210e-01
+haplo 1 result = 7.055265e-04
+base 41 
+haplo 0 result = 6.630589e-03
+haplo 1 result = 6.564283e-01
+base 42 
+haplo 0 result = 4.355758e-21
+haplo 1 result = 5.995569e-24
+base 43 
+haplo 0 result = 9.467762e-01
+haplo 1 result = 9.477239e-04
+base 44 
+haplo 0 result = 9.474980e-04
+haplo 1 result = 9.465505e-01
+base 45 
+haplo 0 result = 1.259953e-01
+haplo 1 result = 1.272679e-03
+base 46 
+haplo 0 result = 3.975776e-11
+haplo 1 result = 5.011515e-14
+base 47 
+haplo 0 result = 4.140749e-24
+haplo 1 result = 2.080279e-24
+base 48 
+haplo 0 result = 8.759242e-26
+haplo 1 result = 8.759242e-26
+data set 2 
+base 0 
+haplo 0 result = 6.553274e-01
+haplo 1 result = 6.619468e-03
+base 1 
+haplo 0 result = 9.436066e-01
+haplo 1 result = 4.753057e-03
+base 2 
+haplo 0 result = 9.321518e-01
+haplo 1 result = 4.695410e-03
+base 3 
+haplo 0 result = 6.767120e-01
+haplo 1 result = 6.835473e-03
+base 4 
+haplo 0 result = 4.914074e-02
+haplo 1 result = 1.648425e-02
+base 5 
+haplo 0 result = 9.409653e-01
+haplo 1 result = 5.974839e-03
+base 6 
+haplo 0 result = 1.039481e-10
+haplo 1 result = 1.194239e-12
+base 7 
+haplo 0 result = 9.561919e-01
+haplo 1 result = 3.821883e-03
+base 8 
+haplo 0 result = 1.930760e-11
+haplo 1 result = 6.455878e-12
+base 9 
+haplo 0 result = 9.514024e-01
+haplo 1 result = 4.792378e-03
+base 10 
+haplo 0 result = 9.361497e-01
+haplo 1 result = 5.944262e-03
+base 11 
+haplo 0 result = 9.406783e-01
+haplo 1 result = 3.759928e-03
+base 12 
+haplo 0 result = 9.328518e-01
+haplo 1 result = 4.698884e-03
+base 13 
+haplo 0 result = 6.927293e-01
+haplo 1 result = 6.997265e-03
+base 14 
+haplo 0 result = 9.432776e-01
+haplo 1 result = 3.770317e-03
+base 15 
+haplo 0 result = 1.078902e-29
+haplo 1 result = 1.078902e-29
+base 16 
+haplo 0 result = 1.466919e-30
+haplo 1 result = 1.466919e-30
+base 17 
+haplo 0 result = 4.394386e-08
+haplo 1 result = 4.253602e-10
+base 18 
+haplo 0 result = 9.351857e-01
+haplo 1 result = 5.938141e-03
+base 19 
+haplo 0 result = 9.437710e-01
+haplo 1 result = 3.772290e-03
+base 20 
+haplo 0 result = 6.549866e-01
+haplo 1 result = 6.616025e-03
+base 21 
+haplo 0 result = 9.475047e-01
+haplo 1 result = 4.772745e-03
+base 22 
+haplo 0 result = 9.617880e-01
+haplo 1 result = 3.051142e-03
+base 23 
+haplo 0 result = 5.010409e-28
+haplo 1 result = 5.010409e-28
+base 24 
+haplo 0 result = 3.753356e-01
+haplo 1 result = 3.791268e-03
+base 25 
+haplo 0 result = 9.478762e-01
+haplo 1 result = 4.774616e-03
+base 26 
+haplo 0 result = 9.510022e-01
+haplo 1 result = 3.801140e-03
+base 27 
+haplo 0 result = 6.556433e-01
+haplo 1 result = 6.622659e-03
+base 28 
+haplo 0 result = 2.123996e-01
+haplo 1 result = 8.489575e-04
+base 29 
+haplo 0 result = 8.030492e-01
+haplo 1 result = 4.045098e-03
+base 30 
+haplo 0 result = 9.522079e-01
+haplo 1 result = 2.397861e-03
+base 31 
+haplo 0 result = 9.449698e-01
+haplo 1 result = 4.759976e-03
+base 32 
+haplo 0 result = 9.486539e-01
+haplo 1 result = 3.009476e-03
+base 33 
+haplo 0 result = 9.557963e-01
+haplo 1 result = 3.820355e-03
+base 34 
+haplo 0 result = 9.466167e-01
+haplo 1 result = 4.768272e-03
+base 35 
+haplo 0 result = 4.961953e-01
+haplo 1 result = 5.012074e-03
+base 36 
+haplo 0 result = 6.555472e-01
+haplo 1 result = 6.621688e-03
+base 37 
+haplo 0 result = 9.497419e-01
+haplo 1 result = 1.507629e-03
+base 38 
+haplo 0 result = 9.556014e-01
+haplo 1 result = 9.565578e-04
+base 39 
+haplo 0 result = 9.495754e-01
+haplo 1 result = 1.196951e-03
+base 40 
+haplo 0 result = 9.483589e-01
+haplo 1 result = 1.505433e-03
+base 41 
+haplo 0 result = 9.456619e-01
+haplo 1 result = 1.501152e-03
+base 42 
+haplo 0 result = 9.393188e-01
+haplo 1 result = 1.491083e-03
+base 43 
+haplo 0 result = 9.475804e-01
+haplo 1 result = 1.194437e-03
+base 44 
+haplo 0 result = 8.235631e-01
+haplo 1 result = 1.038111e-03
+base 45 
+haplo 0 result = 6.806956e-01
+haplo 1 result = 6.875712e-03
+base 46 
+haplo 0 result = 6.542137e-01
+haplo 1 result = 6.608219e-03
+base 47 
+haplo 0 result = 8.960673e-01
+haplo 1 result = 7.123373e-04
+base 48 
+haplo 0 result = 9.627246e-01
+haplo 1 result = 7.653271e-04
+base 49 
+haplo 0 result = 6.556979e-01
+haplo 1 result = 6.623210e-03
+base 50 
+haplo 0 result = 6.552137e-01
+haplo 1 result = 6.618319e-03
+base 51 
+haplo 0 result = 9.463693e-01
+haplo 1 result = 1.192910e-03
+base 52 
+haplo 0 result = 9.671033e-01
+haplo 1 result = 7.688081e-04
+base 53 
+haplo 0 result = 6.271545e-35
+haplo 1 result = 6.271545e-35
+base 54 
+haplo 0 result = 9.504960e-01
+haplo 1 result = 9.514473e-04
+base 55 
+haplo 0 result = 6.562938e-01
+haplo 1 result = 6.629230e-03
+base 56 
+haplo 0 result = 5.137565e-08
+haplo 1 result = 5.142708e-11
+base 57 
+haplo 0 result = 1.131578e-11
+haplo 1 result = 5.699891e-14
+base 58 
+haplo 0 result = 2.093625e-10
+haplo 1 result = 2.114773e-12
+base 59 
+haplo 0 result = 1.541691e-22
+haplo 1 result = 9.789179e-25
+base 60 
+haplo 0 result = 1.557451e-26
+haplo 1 result = 1.557451e-26
+base 61 
+haplo 0 result = 1.042119e-26
+haplo 1 result = 1.042119e-26
+base 62 
+haplo 0 result = 1.540657e-28
+haplo 1 result = 1.540657e-28
+base 63 
+haplo 0 result = 8.886660e-35
+haplo 1 result = 8.886660e-35
+total cycle = 19800 
