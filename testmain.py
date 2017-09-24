@@ -1,6 +1,6 @@
 from read_data import *
 from getTrans import *
-from PEring import *
+from PEring4 import *
 import sys, getopt
 
 def main(argv):
@@ -21,7 +21,7 @@ def main(argv):
     initCycle()     # initial cycle counter to 0
     pcs = 16        # precision: 64/32/16
     setPrecision(pcs)
-    print('current precision =', pcs)
+    f.write("Current precision = %d\n" % pcs)
     ring_size = 16
     total_PE = 32
     ring_num = total_PE/ring_size

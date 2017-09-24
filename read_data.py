@@ -1,5 +1,11 @@
+import numpy as np
+
+def makeProb( Q ):
+    p = np.float64(10**(-Q/10))
+    return p
+
 def readInput( fin_name ):
-    f = open('tiny.in', 'r')
+    f = open(fin_name, 'r')
     data_all = []
     data = []
     data_size = []
@@ -32,21 +38,21 @@ def readInput( fin_name ):
             temp = []
             token = token[2].partition(' ')
             for c in token[0]:
-                temp.append(ord(c)-33)
+                temp.append(makeProb(ord(c)-33))
             Qbase.append(temp)
             temp = []
             token = token[2].partition(' ')
             for c in token[0]:
-                temp.append(ord(c)-33)
+                temp.append(makeProb(ord(c)-33))
             Qi.append(temp)
             temp = []
             token = token[2].partition(' ')
             for c in token[0]:
-                temp.append(ord(c)-33)
+                temp.append(makeProb(ord(c)-33))
             Qd.append(temp)
             temp = []
             for c in token[2]:
-                temp.append(ord(c)-33)
+                temp.append(makeProb(ord(c)-33))
             temp.pop()
             Qg.append(temp)
         else:
@@ -60,3 +66,4 @@ def readInput( fin_name ):
         data_all.append(data)
     f.close()
     return data_all
+

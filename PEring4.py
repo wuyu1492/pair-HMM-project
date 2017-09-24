@@ -60,7 +60,7 @@ class PE:
             prior = self.calPrior()
             global precision
             if precision == 16:         # partially truncate
-                newta = np.float32(dm * fi_in + fd_in)
+                newta = np.float32(dm * (fi_in + fd_in))
                 newtb = np.float32(mm * fm_in)
                 fm = np.float32(prior * (self.ta[-1] + self.tb[-1]))
                 fi = np.float32(np.float16(mi) * np.float16(self.fmid[-1][0]) + ii * self.fmid[-1][1])

@@ -1,5 +1,5 @@
 import numpy as np
-
+"""
 def getPrior(base, haplo, Qbase):
     prior = np.zeros((len(base), len(haplo)))    # initialize prior matrix
     #print(prior.shape)  # check prior shape
@@ -10,13 +10,14 @@ def getPrior(base, haplo, Qbase):
             else:
                 prior[i][j] = Qbase[i]
     return prior
+"""
 
 def getTrans(Qi, Qd, Qg):
     qi = np.array(Qi)
     qd = np.array(Qd)
     qg = np.array(Qg)
-    mm = 1-(qi + qd)
-    im = 1-qg
+    mm = 1.0 - (qi + qd)
+    im = 1.0 - qg
     dm = im
     mi = qi
     ii = qg
